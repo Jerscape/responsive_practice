@@ -1,20 +1,18 @@
 .parent {
   outline: 5px solid hotpink;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 
 .cluster {
 
-  gap: 1rem;
+  display: flex;
   outline: 1px solid blue;
-  padding: 2px;
   min-width: 100px;
+  
 }
 
-.test {
-
-}
